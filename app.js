@@ -24,8 +24,8 @@ app.get('/', (req, res) => {
     res.send('Sequelize is connected!');
 });
 
-app.listen(PORT, () => {
-    console.log(`App is listening on port ${PORT}`);
-});
+// app.listen(PORT, () => {
+//     console.log(`App is listening on port ${PORT}`);
+// });
 
 module.exports = app; 
